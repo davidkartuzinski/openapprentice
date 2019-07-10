@@ -3,9 +3,9 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const IndexPage = () => (
+const ForEmployersPage = () => (
   <Layout>
-    <SEO title="OpenApprentice" />
+    <SEO title="For Employers" />
     <h1
       style={{
         fontSize: "3.157rem",
@@ -18,7 +18,7 @@ const IndexPage = () => (
         fontFamily: '"Verdana", sans-serif',
       }}
     >
-      OpenApprentice
+      For Employers
     </h1>
     <h2
       style={{
@@ -32,7 +32,7 @@ const IndexPage = () => (
         fontFamily: '"Verdana", sans-serif',
       }}
     >
-      A new approach to gaining real experience.
+      Hire with greater certainty
     </h2>
     <div
       style={{
@@ -51,9 +51,10 @@ const IndexPage = () => (
           fontFamily: "Georgia, serif",
         }}
       >
-        We're combining new teaching models, novel learning material and basic
-        concepts of the ageless apprenticeship system to help better trained and
-        experienced employees to new jobs and opportunities.
+        We apprentice them. You hire them. We do it Open Source style. The
+        difference betweeen what we're doing and others is you can hire people
+        who have worked on the exact track you choose for your business needs -
+        and you can supervise their learning each step of the way.
       </p>
       <p
         style={{
@@ -63,12 +64,12 @@ const IndexPage = () => (
           fontFamily: "Georgia, serif",
         }}
       >
-        We already thank all those before us who have graciously published their
-        resources for the benefit of all. We build on your work and example as a
-        foundation for our success.
+        More importantly, your existing employees can further develop on
+        expanding their core competencies and general knowledge making their
+        contributions to your business greater.
       </p>
     </div>
   </Layout>
 )
 
-export default IndexPage
+export default ForEmployersPage

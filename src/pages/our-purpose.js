@@ -3,9 +3,9 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const IndexPage = () => (
+const OurPurposePage = () => (
   <Layout>
-    <SEO title="OpenApprentice" />
+    <SEO title="Our Purpose" />
     <h1
       style={{
         fontSize: "3.157rem",
@@ -18,7 +18,7 @@ const IndexPage = () => (
         fontFamily: '"Verdana", sans-serif',
       }}
     >
-      OpenApprentice
+      Our Purpose
     </h1>
     <h2
       style={{
@@ -32,7 +32,7 @@ const IndexPage = () => (
         fontFamily: '"Verdana", sans-serif',
       }}
     >
-      A new approach to gaining real experience.
+      Our Purpose - To solve getting the job done
     </h2>
     <div
       style={{
@@ -51,9 +51,10 @@ const IndexPage = () => (
           fontFamily: "Georgia, serif",
         }}
       >
-        We're combining new teaching models, novel learning material and basic
-        concepts of the ageless apprenticeship system to help better trained and
-        experienced employees to new jobs and opportunities.
+        Who solves problems? People. Who hires people? Other people. We noticed
+        the complexity, confusion and weirdness of the relationship between both
+        these peoples. Our purpose is to deliver certainty of what to expect.
+        Simple.
       </p>
       <p
         style={{
@@ -63,12 +64,13 @@ const IndexPage = () => (
           fontFamily: "Georgia, serif",
         }}
       >
-        We already thank all those before us who have graciously published their
-        resources for the benefit of all. We build on your work and example as a
-        foundation for our success.
+        We want the job to get job. There is a lot of worthy, profitable and
+        necessary work to accomplish. Remove the biases, prejudices, false
+        assertions and politics and we believe everyone in this industry will
+        benefit.
       </p>
     </div>
   </Layout>
 )
 
-export default IndexPage
+export default OurPurposePage

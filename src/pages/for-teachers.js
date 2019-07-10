@@ -3,9 +3,9 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const IndexPage = () => (
+const ForTeachersPage = () => (
   <Layout>
-    <SEO title="OpenApprentice" />
+    <SEO title="For Teachers and Mentors" />
     <h1
       style={{
         fontSize: "3.157rem",
@@ -18,7 +18,7 @@ const IndexPage = () => (
         fontFamily: '"Verdana", sans-serif',
       }}
     >
-      OpenApprentice
+      For Teachers and Mentors
     </h1>
     <h2
       style={{
@@ -32,7 +32,7 @@ const IndexPage = () => (
         fontFamily: '"Verdana", sans-serif',
       }}
     >
-      A new approach to gaining real experience.
+      Teach for greater and meaningful impact
     </h2>
     <div
       style={{
@@ -51,9 +51,10 @@ const IndexPage = () => (
           fontFamily: "Georgia, serif",
         }}
       >
-        We're combining new teaching models, novel learning material and basic
-        concepts of the ageless apprenticeship system to help better trained and
-        experienced employees to new jobs and opportunities.
+        You give your time to create a teaching platform, a method or
+        instruction for others. Sometimes you deliver the impact and help you
+        wanted. Mostly, your efforts fell flat. It wasn't your effort. Or what
+        you were teaching. It was where and when you taught it.
       </p>
       <p
         style={{
@@ -63,12 +64,13 @@ const IndexPage = () => (
           fontFamily: "Georgia, serif",
         }}
       >
-        We already thank all those before us who have graciously published their
-        resources for the benefit of all. We build on your work and example as a
-        foundation for our success.
+        The OpenApprentice system we're implementing fixes that. It takes your
+        valuable insights, that you already want to teach others, and places it
+        in front of students exactly when they will most benefit from it. They
+        should know what you know.
       </p>
     </div>
   </Layout>
 )
 
-export default IndexPage
+export default ForTeachersPage

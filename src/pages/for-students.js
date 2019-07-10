@@ -3,9 +3,9 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const IndexPage = () => (
+const ForStudentsPage = () => (
   <Layout>
-    <SEO title="OpenApprentice" />
+    <SEO title="For Students" />
     <h1
       style={{
         fontSize: "3.157rem",
@@ -18,7 +18,7 @@ const IndexPage = () => (
         fontFamily: '"Verdana", sans-serif',
       }}
     >
-      OpenApprentice
+      For Students
     </h1>
     <h2
       style={{
@@ -32,7 +32,7 @@ const IndexPage = () => (
         fontFamily: '"Verdana", sans-serif',
       }}
     >
-      A new approach to gaining real experience.
+      Acquire competence for real life
     </h2>
     <div
       style={{
@@ -51,9 +51,9 @@ const IndexPage = () => (
           fontFamily: "Georgia, serif",
         }}
       >
-        We're combining new teaching models, novel learning material and basic
-        concepts of the ageless apprenticeship system to help better trained and
-        experienced employees to new jobs and opportunities.
+        What matters most is the knowledge you can learn what you need as it's
+        needed. Competence then is related to ones ability to learn. Your
+        ability to learn is connected to your ability to communicate.
       </p>
       <p
         style={{
@@ -63,12 +63,12 @@ const IndexPage = () => (
           fontFamily: "Georgia, serif",
         }}
       >
-        We already thank all those before us who have graciously published their
-        resources for the benefit of all. We build on your work and example as a
-        foundation for our success.
+        The OpenApprentice system will get you there. You will be confident of
+        your skills and what you can do - each step of the way. And with this
+        you walk your own path forward.
       </p>
     </div>
   </Layout>
 )
 
-export default IndexPage
+export default ForStudentsPage
